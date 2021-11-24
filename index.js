@@ -29,6 +29,7 @@ app.post("/createcard", (req, res) => {
     githubUrl: req.body.githuburl,
     twitterUrl: req.body.twitterurl
   }
+  console.log(user)
 })
 
 
